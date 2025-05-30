@@ -21,7 +21,7 @@ router
     wrapAsync(listingController.createListing)
   );
 
-
+router.get("/search", wrapAsync(listingController.searchListings));
 //new route
 router.get("/new", isLoggedIn, listingController.renderNewForm);
 
@@ -45,6 +45,5 @@ router.get(
   isOwner,
   wrapAsync(listingController.renderEditForm)
 );
-router.get("/search", wrapAsync(listingController.searchListings));
 
 module.exports = router;
