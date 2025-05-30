@@ -45,5 +45,6 @@ router.get(
   isOwner,
   wrapAsync(listingController.renderEditForm)
 );
+router.get("/search", wrapAsync(listingController.searchListings));
 
 module.exports = router;
