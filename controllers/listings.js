@@ -70,3 +70,20 @@ module.exports.destroyListing = async (req, res) => {
   req.flash("success", "Successfully deleted a listing!");
   res.redirect("/listings");
 };
+module.exports.searchListings = async (req, res) => {
+  const { q } = req.query;
+  let listings = [];
+
+  if (q && q.trim()) {
+    listings = await Listing.find({
+      $or: [
+        { title: new RegExp(q, 'i') },
+        { location: new RegExp(q, 'i') },
+        { description: new RegExp(q, 'i') }
+      ]
+    });
+  }
+
+  res.render("listings/index.ejs", { allListings: listings, q });
+};
+
