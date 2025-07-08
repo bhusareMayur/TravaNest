@@ -38,7 +38,7 @@
 
 ```bash
 git clone https://github.com/bhusareMayur/TravaNest.git
-cd wanderlust
+cd TravaNest
 ```
 
 ### 📦 Install Dependencies
