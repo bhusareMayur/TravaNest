@@ -1,6 +1,6 @@
 # 🏨 Hotel Discovery and Listing Platform
 
-[🌐 Live Demo](https://wanderlust-3qq5.onrender.com/listings) • [📂 GitHub Repository](https://github.com/bhusareMayur/wanderlust)
+[🌐 Live Demo](https://wanderlust-3qq5.onrender.com/listings) • [📂 GitHub Repository](https://github.com/bhusareMayur/TravaNest.git)
 
 ---
 
