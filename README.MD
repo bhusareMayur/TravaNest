@@ -37,7 +37,7 @@
 ### 🔁 Clone the Repository
 
 ```bash
-git clone https://github.com/bhusareMayur/wanderlust.git
+git clone https://github.com/bhusareMayur/TravaNest.git
 cd wanderlust
 ```
 
