@@ -1,4 +1,4 @@
-# 🏨 Hotel Discovery and Listing Platform
+# 🏨TravaNest - Hotel Discovery and Listing Platform
 
 [🌐 Live Demo](https://wanderlust-3qq5.onrender.com/listings) • [📂 GitHub Repository](https://github.com/bhusareMayur/TravaNest.git)
 
@@ -71,7 +71,7 @@ Visit: `http://localhost:3000/listings`
 ## 📁 Folder Structure
 
 ```bash
-wanderlust/
+TravaNest/
 ├── controllers/      # Route logic and controller functions
 ├── models/           # Mongoose schemas
 ├── routes/           # All Express routes
